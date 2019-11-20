@@ -1,0 +1,21 @@
+{
+    "name": "projectx/helloworld",
+    "description": "My first Composer project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Le Sanglier des Ardennes",
+            "email": "lesanglierdesardennes@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require":
+        {
+            "php": ">=7.0.12"
+        },
+    "autoload": {
+        "psr-0": {
+            "HelloWorld": "src/"
+        }
+    }
+}
