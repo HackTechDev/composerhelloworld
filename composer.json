@@ -24,5 +24,12 @@
     },
     "scripts": {
       "test": ["php tests/test.php", "echo Hello"]
-    }
+    },
+    "repositories":[
+        {
+            "type": "vcs",
+            "url": "git@github.com:Nekrofage/composerlib"
+        }
+    ]
+        
 }
