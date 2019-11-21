@@ -27,8 +27,8 @@
     },
     "repositories":[
         {
-            "type": "vcs",
-            "url": "git@github.com:Nekrofage/composerlib"
+            "type": "git",
+            "url": "git@github.com:Nekrofage/composerlib.git"
         }
     ]
         
